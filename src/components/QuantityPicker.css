@@ -1,0 +1,29 @@
+.quantity-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.qp-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 0.4em 0.8em;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.qp-btn:hover {
+  background-color: #388e3c;
+}
+
+.qp-value {
+  min-width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
